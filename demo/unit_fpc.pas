@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  Buttons, StdCtrls,common, bsJLSGlobal,bsJLSDecoder;
+  Buttons, StdCtrls,common, JLSGlobal,JLSDecoder;
 
 type
 
@@ -48,7 +48,7 @@ end;
 procedure TForm1.DecodeFile(FileName: String);
 var
   LInput,LOutput:TMemorystream;
-  info:TbsJlsParameters;
+  info:TJlsParameters;
   Abitmap:TBitmap;
 begin
   LInput:=TMemorystream.Create;
