@@ -11,7 +11,7 @@ Added sample demo project.(VCL & FMX & FPC)
 # How to use ?
 
 ## Parameter types
-
+```Pascal
     /// Defines the JPEG-LS preset coding parameters as defined in ISO/IEC 14495-1, C.2.4.1.1.
     /// JPEG-LS defines a default set of parameters, but custom parameters can be used.
     /// When used these parameters are written into the encoded bit stream as they are needed for the decoding process.
@@ -52,9 +52,9 @@ Added sample demo project.(VCL & FMX & FPC)
       InterleavedMode:Integer;
       Custom: TJlsCustomParameters;
     end;
-
+```
 ## Decoding a JLS File
-
+```Pascal
     function DecodeFileToBitmap(FileName: String):TBitmap;
     var
       LInput,LOutput:TMemorystream;
@@ -91,10 +91,10 @@ Added sample demo project.(VCL & FMX & FPC)
         ABitmap.Free;
       end;
     end;				
-					
+```					
 
 ## Encoding as a JLS File
-
+```Pascal
     procedure EncodeBitmapToFile(FileName: String; Bitmap: TBitmap);
     var
       LInput,LOutput:TMemorystream;
@@ -136,7 +136,7 @@ Added sample demo project.(VCL & FMX & FPC)
         Bitmap.Free;
       end;
     end;
-					
+```					
 
 
 
