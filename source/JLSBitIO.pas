@@ -3,7 +3,7 @@
    This code is based on http://www.stat.columbia.edu/~jakulin/jpeg-ls/mirror.htm
    Converted from C to Pascal. 2017
 
-   https://github.com/zekiguven/delphi_jpeg_jls
+   https://github.com/zekiguven/pascal_jls
 
    author : Zeki Guven
 }
