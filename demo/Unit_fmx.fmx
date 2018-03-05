@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Left
+    Size.Width = 161.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object bOpen: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 16.000000000000000000
+      TabOrder = 1
+      Text = 'Open'
+      OnClick = bOpenClick
+    end
+    object bSave: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 48.000000000000000000
+      TabOrder = 2
+      Text = 'Save'
+    end
+  end
+  object ScrollBox1: TScrollBox
+    Align = Client
+    Size.Width = 479.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 479.000000000000000000
+    Viewport.Height = 480.000000000000000000
+    object ImageControl1: TImageControl
+      TabOrder = 0
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 56
+    Top = 144
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 56
+    Top = 208
+  end
+end
