@@ -2,7 +2,7 @@ Delphi / Free Pascal Compitable  JPEG-LS Codec
 ====
 This code is based on http://www.stat.columbia.edu/~jakulin/jpeg-ls/mirror.htm  
 
-Converted from C to Pascal.
+Converted from C to Pascal by Zeki Guven.
 
 Added sample demo project.(VCL & FMX & FPC)
 
@@ -50,7 +50,7 @@ Added sample demo project.(VCL & FMX & FPC)
       /// LINE_INT = 1;
       /// PIXEL_INT  = 2;
       InterleavedMode:Integer;
-      Custom: TbsJlsCustomParameters;
+      Custom: TJlsCustomParameters;
     end;
 
 ## Decoding a JLS File
